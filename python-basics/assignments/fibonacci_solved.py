@@ -7,9 +7,7 @@ def sum_fibonacci(n):
 	for i in range(3,n+1):
 		seq = fib_array[i-1]+fib_array[i-2]
 		fib_array.append(seq)
-		print fib_array
 		sum+=seq
-	print fib_array
 	return sum
 
 # NOTE: this is an encoded solution
